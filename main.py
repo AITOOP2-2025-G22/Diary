@@ -1,7 +1,7 @@
+from diaries.NiimiDiary import NiimiDiary
 from diaries.DiarySample import DiarySample
-from diaries.NimiDiary import NiimiDairy
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), NiimiDairy()]
+diaries = [DiarySample(), NiimiDiary()]
 
 for d in diaries:
     print("---------------------------------")
