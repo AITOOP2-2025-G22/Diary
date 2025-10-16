@@ -2,9 +2,9 @@
 from diaries.NiimiDiary import NiimiDiary
 from diaries.TsujiDiary import TsujiDiary
 from diaries.SendaDiary import SendaDiary
+from diaries.takahashiDiary import takahashiDiary
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [ NiimiDiary(),TsujiDiary(),SendaDiary()]
-
+diaries = [ NiimiDiary(),TsujiDiary(),SendaDiary(),takahashiDiary()]
 
 
 for d in diaries:
