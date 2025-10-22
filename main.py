@@ -1,6 +1,9 @@
+
+
+from diaries.NiimiDiary import NiimiDiary
 from diaries.TsujiDiary import TsujiDiary
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [TsujiDiary(), ]
+diaries = [ NiimiDiary(),TsujiDiary()]
 
 for d in diaries:
     print("---------------------------------")
